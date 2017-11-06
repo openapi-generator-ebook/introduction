@@ -1,0 +1,9 @@
+{
+    "gemName": "online_petstore",
+    "moduleName": "OnlinePetstore",
+    "gemLicense": "MIT",
+    "gemVersion": "0.3.1",
+    "gemRequiredRubyVersion": "2.1",
+    "gitUserId": "swagger-codegen-ebook",
+    "gitRepoId": "OnlinePetstore"
+}
