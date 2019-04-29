@@ -4,6 +4,6 @@
     "gemLicense": "MIT",
     "gemVersion": "0.3.1",
     "gemRequiredRubyVersion": "2.1",
-    "gitUserId": "swagger-codegen-ebook",
+    "gitUserId": "openapi-generator-ebook",
     "gitRepoId": "OnlinePetstore"
 }
