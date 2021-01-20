@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.openapitools.Petstore</groupId>
+    <artifactId>powershell-demo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+ 
+    <build>
+        <plugins>
+            <!-- activate the plugin -->
+            <plugin>
+                <groupId>org.openapitools</groupId>
+                <artifactId>openapi-generator-maven-plugin</artifactId>
+                <version>5.0.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <!-- specify the location of the spec -->
+                            <inputSpec>https://raw.githubusercontent.com/openapi-generator-ebook/spec/master/petstore.json</inputSpec>
+                            <!-- target to generate powershell client code -->
+                            <language>powershell</language>
+                            <!-- general option -->
+                            <gitUserId>openapi-generator-ebook</gitUserId>
+                            <gitRepoId>OnlinePetstore</gitRepoId>
+                            <!-- language specified options -->
+                            <configOptions>
+                                <packageName>PSPetstore</packageName>
+                                <packageVersion>1.3.4</packageVersion>
+                                <powershellGalleryUrl>https://www.powershellgallery.com/packages/PSPetstore</powershellGalleryUrl>
+                                <licenseUri>https://opensource.org/licenses/MIT</licenseUri>
+                            </configOptions>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
