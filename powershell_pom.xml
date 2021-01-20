@@ -19,12 +19,12 @@
                         </goals>
                         <configuration>
                             <!-- specify the location of the spec -->
-                            <inputSpec>https://raw.githubusercontent.com/openapi-generator-ebook/spec/master/petstore.json</inputSpec>
+                            <inputSpec>https://pubi.org/petstore_oas3.yaml</inputSpec>
                             <!-- target to generate powershell client code -->
                             <language>powershell</language>
                             <!-- general option -->
                             <gitUserId>openapi-generator-ebook</gitUserId>
-                            <gitRepoId>OnlinePetstore</gitRepoId>
+                            <gitRepoId>PSPetstore</gitRepoId>
                             <!-- language specified options -->
                             <configOptions>
                                 <packageName>PSPetstore</packageName>
