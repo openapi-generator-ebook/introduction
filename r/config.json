@@ -1,7 +1,6 @@
 {
-    "packageName": "PSPetstore",
+    "packageName": "rpetstore",
     "packageVersion": "0.3.1",
-    "returnExceptionOnFailure": true,
     "gitUserId": "openapi-generator-ebook",
-    "gitRepoId": "r_petstore"
+    "gitRepoId": "r-petstore"
 }
