@@ -27,8 +27,11 @@
                             <gitRepoId>OnlinePetstore</gitRepoId>
                             <!-- language specified options -->
                             <configOptions>
+                                <gemName>online_petstore</gemName>
                                 <moduleName>OnlinePetstore</moduleName>
-                                <moduleVersion>0.3.1</moduleVersion>
+                                <gemLicense>MIT</gemLicense>
+                                <gemVersion>0.3.1</gemVersion>
+                                <gemRequiredRubyVersion>0.3.1</gemRequiredRubyVersion>
                             </configOptions>
                         </configuration>
                     </execution>
