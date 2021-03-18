@@ -24,11 +24,11 @@
                             <language>perl</language>
                             <!-- general option -->
                             <gitUserId>openapi-generator-ebook</gitUserId>
-                            <gitRepoId>perl_petstore</gitRepoId>
+                            <gitRepoId>PerlPetstore</gitRepoId>
                             <!-- language specified options -->
                             <configOptions>
-                                <packageName>perl_petstore</packageName>
-                                <packageVersion>1.3.4</packageVersion>
+                                <moduleName>OnlinePetstore</moduleName>
+                                <moduleVersion>0.3.1</moduleVersion>
                             </configOptions>
                         </configuration>
                     </execution>
